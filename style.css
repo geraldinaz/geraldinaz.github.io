@@ -9,3 +9,10 @@
     height: 100%;
     background: #151719;
 }
+#nav ul li a {
+    /* icons */
+    float: left; /* need this float for margins to work? */
+    color: white;
+    margin-top: 50px;
+    margin-left: 25px;
+}
