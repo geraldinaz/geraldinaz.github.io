@@ -3,16 +3,27 @@
     padding: 0px;
     font-family: sans-serif;
 }
-#nav {
-    position: fixed;
+.page {
+    height: 100vh; /* 1vh = 1% of viewport's height*/
+}
+.nav {
     width: 80px;
     height: 100%;
+    float: left;
     background: #151719;
 }
-#nav ul li a {
+.nav ul li a {
     /* icons */
     float: left; /* need this float for margins to work? */
     color: white;
     margin-top: 50px;
     margin-left: 25px;
+}
+.content {
+    margin-left: 80px;
+    height: 100%;
+    background: orange;
+}
+.clear {
+    clear: both;
 }
