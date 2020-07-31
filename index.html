@@ -6,27 +6,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:bold|Source+Sans+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:bold|Source+Sans+Pro|Nunito">
   <script src="main.js"></script>
 </head>
 
 <body>
-  <div class="page">
-    <nav id="myNav">
-      <ul>
-        <!-- <li id="home"><a href="#"><i class="material-icons">home</i></a></li>
+  <nav id="myNav">
+    <ul>
+      <!-- <li id="home"><a href="#"><i class="material-icons">home</i></a></li>
         <li id="experience"><a href="#"><i id="icon" class="material-icons">work</i></a></li>
         <li><a href="#"><i id="icon" class="material-icons">email</i></a></li> -->
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Experience</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+      <li><a href="#home-jump" id="home-link">Home</a></li>
+      <li><a href="#experience-jump" id="exp-link">Experience</a></li>
+      <li><a href="Geraldina Zhang Resume.pdf" target="_blank" id="resume">Resume</a></li>
+    </ul>
+  </nav>
 
-    <div class="content">
+  <div class="content-wrapper">
+    <div class="home" id="home-jump">
       <h1>Hi, I'm <br> Geraldina Zhang.</h1>
-      <h2> I am a recent University of Florida grad interested in mobile development and user experience design.</h2>
-      <p> 🎓 </p>
+      <div class="intro">
+        <div class="intro-text">
+          <h2> I'm a recent University of Florida grad interested in mobile development, front end design, and UI/UX. 🎓
+            I enjoy solving problems and improving my skills everyday.
+          </h2>
+        </div>
+        <img class="intro-image" src="pic_square.jpeg" alt="Go gators!">
+      </div>
+    </div>
+    <div class="experience full-viewport-height" id="experience-jump">
+      <h1 class="section-heading">Experience</h1>
+
+      <div class="experience-content">
+        <h2 class="employment-position">Mentee | Infotech</h2>
+        <h3>January 2020 - April 2020</h3>
+        <ul>
+          <li>Worked with a mentor at Infotech to develop a mobile fitness progress tracker application for users to log
+            their workouts and view summary statistics of logged workouts</li>
+          <li>Utilized NativeScript, Vue.js, Typescript, CSS, and Firebase </li>
+          <li>Focused on user experience design by referencing Material Design principles and performing user tests</li>
+          <li>Gained firsthand industry experience in using Agile methodology, Git, and GitHub</li>
+        </ul>
+        <h2 class="employment-position">Learning Assistant | University of Florida Department of Mathematics</h2>
+        <h3>August 2018 - December 2018</h3>
+        <ul>
+          <li>Facilitated learning of Calculus 1 concepts by answering questions and guiding 30+ students in completion
+            of weekly worksheets</li>
+          <li>Coordinated with the professor to anticipate lecture topics and prepare accordingly to maximize ability to
+            assist students</li>
+          <li>Developed strong verbal communication skills through explaining theoretical ideast</li>
+        </ul>
+        <h2 class="employment-position">Intern | University of Florida Tropical Research and Education Center</h2>
+        <h3>May 2017 - August 2017</h3>
+        <ul>
+          <li>Used R to analyze over 19 million data entries for weather variables gathered from 40+ stations in FL</li>
+          <li>Aggregated 15-minute interval data points into hourly, daily, monthly, and yearly selections</li>
+          <li>Initial exposure to computer science which led to my decision to major in it</li>
+        </ul>
+
+      </div>
     </div>
   </div>
 
