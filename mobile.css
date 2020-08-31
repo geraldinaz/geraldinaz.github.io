@@ -76,6 +76,30 @@ html {
     font-size: 30px;
 }
 
+@media screen and (min-width: 320px) {
+    #icon {
+        top: 150%;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    #icon {
+        top: 170%;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    #icon {
+        top: 230%;
+    }
+}
+
+@media screen and (min-width: 411px) {
+    #icon {
+        top: 270%;
+    }
+}
+
 /* Experience heading */
 .section-heading {
     padding: 20px 35px 0px;
