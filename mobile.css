@@ -94,12 +94,6 @@ html {
     }
 }
 
-@media screen and (min-width: 411px) {
-    #icon {
-        top: 200%;
-    }
-}
-
 /* Experience heading */
 .section-heading {
     padding: 20px 35px 0px;
