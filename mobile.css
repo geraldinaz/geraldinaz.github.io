@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#myNav {
+    display: none;
+}
+
+.content-wrapper {
+    width: 100%;
+}
+
+.home {
+    background-color: #fffcf2;
+    height: 100vh;
+}
+
+.intro {
+    position: relative;
+}
+
+/* Hi my name... */
+.home h1 {
+    padding: 80px 40px 20px;
+    font-family: Montserrat;
+    font-size: 50px;
+    line-height: 44px;
+}
+
+/* About me */
+.intro-text h2 {
+    padding: 0px 40px 30px;
+    font-family: Nunito;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.intro-image {
+    display: none;
+}
+
+/* Resume button */
+.resume-container {
+    text-align: center;
+}
+
+#resume_mobile {
+    background-color: #ee4b94;
+    padding: 7px;
+    border-radius: 9%;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#resume_mobile:hover {
+    background-color: #f72585;
+}
+
+
+/* expand icon and to hide list */
+.home li {
+    list-style: none;
+}
+
+#icon {
+    position: absolute;
+    top: 170%;
+    left: 45%;
+    font-size: 30px;
+}
+
+/* Experience heading */
+.section-heading {
+    padding: 20px 35px 0px;
+    font-family: Montserrat;
+    font-size: 30px;
+}
+
+.experience-content {
+    padding: 0px 35px 10px;
+}
+
+.employment-position {
+    padding: 10px 0px 0px;
+    font-family: Nunito;
+    font-size: 20px;
+}
+
+.experience-content h3, ul li {
+    font-family: Nunito;
+}
+
+.experience-content ul li {
+    margin-left: 20px;
+    font-size: 18px;
+}
